@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language JavaScript?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vbox" layoutX="0" layoutY="0" prefHeight="900.0" prefWidth="1900.0" spacing="10" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Canvas fx:id="mAnimCanvas" height="900.0" width="1900" />
+        <TextArea fx:id="mLogArea" layoutX="10" layoutY="900" prefHeight="180.0" prefWidth="1900.0" />
+    </children>
+</VBox>
